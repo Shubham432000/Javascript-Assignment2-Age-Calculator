@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="date" id="date1">
+    <button onclick="show()">show</button>
+    <p id="year"></p>
+    <p id="month"></p>
+    <p id="days"></p>
+
+    <script src="./index.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <label for="dob">Your Date of Birth</label>
+        <input type="date" name="dob-name" id="date1" >
+        <p class="desc">Your Age is : </p>
+        <p class="age">
+            <span id="year"></span> years
+            <span id="month"></span> months
+            <span id="days"></span> days
+        </p>
+        <button onclick="show()">show</button>
+        <p class="error">Welcome Time Traveller</p>
+    </div>
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>
